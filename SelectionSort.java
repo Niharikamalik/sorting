@@ -8,14 +8,14 @@ public class Main
 	        System.out.print(arr[i]+" ");
 	    }
 	    System.out.println();
-	    BubbleaSort(arr,n);
+	    selectionSort(arr,n);
 	    System.out.println("After sorting");
 	    for(int i=0;i<n;i++){
 	        System.out.print(arr[i]+" ");
 	    }
 	}
 	
-	static void BubbleaSort(int arr[],int n){
+	static void selectionSort(int arr[],int n){
 	    for (int i=0 ; i<n;i++){
 	        int min = i;
 	        for (int j=i+1;j<n;j++){
